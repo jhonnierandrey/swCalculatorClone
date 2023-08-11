@@ -2,14 +2,14 @@
 
 Calculator Clone with SwiftUI
 
-![VetApp Preview](https://www.jaesmadeit.com/assets/img/projects/mobile-apps/calculatorclone-preview.png)
+![Calculator Clone Preview](https://www.jaesmadeit.com/assets/img/projects/mobile-apps/calculatorclone-preview.png)
 
 ## How to use:
 
 1. Clone this repo
 
    ```bash
-       git clone https://github.com/jhonnierandrey/rnVetAppt
+       git clone https://github.com/jhonnierandrey/swCalculatorClone
    ```
 
 2. Open the `CalculatorClone.xcodeproj` file in Xcode (recommended - Version 14.3.1)
