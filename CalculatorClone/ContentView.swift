@@ -59,20 +59,17 @@ struct ContentView: View {
     
     var body: some View {
         ZStack{
-            Color.black.edgesIgnoringSafeArea(.all)
             VStack{
-                // MARK: Display
                 Spacer()
                 HStack{
                     Spacer()
                     Text(displayValue)
                         .bold()
                         .font(.system(size: 100))
-                        .foregroundColor(.white)
+                        .foregroundColor(.primary)
                     
                 }.padding()
                 
-                // MARK: Buttons
                 ForEach(buttons, id: \.self){ row in
                     HStack (spacing: 12){
                         ForEach(row, id:\.self){
@@ -96,7 +93,7 @@ struct ContentView: View {
             }
         }
     }
-    // MARK: DidTap function
+    
     func didTap(button : CalcButtons){
         switch button {
         case .add, .subtract, .multiply, .divide, .equal :
@@ -152,8 +149,6 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview {
+    ContentView()
 }

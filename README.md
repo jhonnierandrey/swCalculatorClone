@@ -12,7 +12,7 @@ Calculator Clone with SwiftUI
        git clone https://github.com/jhonnierandrey/swCalculatorClone
    ```
 
-2. Open the `CalculatorClone.xcodeproj` file in Xcode (recommended - Version 14.3.1)
+2. Open the `CalculatorClone.xcodeproj` file in Xcode (recommended - Version 15.0.1)
 
 ## Contributing
 
